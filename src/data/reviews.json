@@ -1,0 +1,298 @@
+[
+  {
+    "id": "r1",
+    "serviceId": "s1",
+    "userName": "Chris M.",
+    "rating": 5,
+    "comment": "Best haircut I've had in years. The attention to detail and hot towel finish made the whole experience feel premium.",
+    "date": "2026-03-10"
+  },
+  {
+    "id": "r2",
+    "serviceId": "s1",
+    "userName": "Jason L.",
+    "rating": 4,
+    "comment": "Great atmosphere and skilled barbers. Slightly longer wait than expected but the result was worth it.",
+    "date": "2026-03-05"
+  },
+  {
+    "id": "r3",
+    "serviceId": "s1",
+    "userName": "Derek T.",
+    "rating": 5,
+    "comment": "The West Hollywood location has an amazing vibe. Walked out looking sharp and feeling great.",
+    "date": "2026-02-28"
+  },
+  {
+    "id": "r4",
+    "serviceId": "s2",
+    "userName": "Tyler D.",
+    "rating": 5,
+    "comment": "Birds Barbershop nails the vibe. Quick, clean beard trim with great product recommendations.",
+    "date": "2026-03-06"
+  },
+  {
+    "id": "r5",
+    "serviceId": "s2",
+    "userName": "Matt R.",
+    "rating": 4,
+    "comment": "Love the South Congress location. Friendly staff and consistent quality every visit.",
+    "date": "2026-02-18"
+  },
+  {
+    "id": "r6",
+    "serviceId": "s3",
+    "userName": "Michelle T.",
+    "rating": 5,
+    "comment": "My blowout lasted three full days. The stylist really listened to what I wanted and the salon is beautiful.",
+    "date": "2026-03-08"
+  },
+  {
+    "id": "r7",
+    "serviceId": "s3",
+    "userName": "Kara W.",
+    "rating": 5,
+    "comment": "Gene Juarez never disappoints. The products they use are top-notch and the results speak for themselves.",
+    "date": "2026-02-28"
+  },
+  {
+    "id": "r8",
+    "serviceId": "s3",
+    "userName": "Nicole P.",
+    "rating": 4,
+    "comment": "Capitol Hill location is so convenient. Great blowout, and the shampoo massage was heavenly.",
+    "date": "2026-02-15"
+  },
+  {
+    "id": "r9",
+    "serviceId": "s4",
+    "userName": "Monica F.",
+    "rating": 5,
+    "comment": "Fastest and least painful brow wax I've ever had. The Comfort Wax really does make a difference.",
+    "date": "2026-03-04"
+  },
+  {
+    "id": "r10",
+    "serviceId": "s4",
+    "userName": "Priya N.",
+    "rating": 4,
+    "comment": "Always consistent results. In and out in 15 minutes with perfectly shaped brows.",
+    "date": "2026-02-15"
+  },
+  {
+    "id": "r11",
+    "serviceId": "s5",
+    "userName": "Camila R.",
+    "rating": 5,
+    "comment": "The full body package is such a great deal. The Miami location is spotless and the staff is wonderful.",
+    "date": "2026-03-12"
+  },
+  {
+    "id": "r12",
+    "serviceId": "s5",
+    "userName": "Jessica T.",
+    "rating": 4,
+    "comment": "Very thorough and professional. A bit of redness after but that's normal. Skin was perfectly smooth.",
+    "date": "2026-02-20"
+  },
+  {
+    "id": "r13",
+    "serviceId": "s6",
+    "userName": "Jennifer A.",
+    "rating": 5,
+    "comment": "My skin has never looked better. The HydraFacial was incredibly relaxing and the results were immediate.",
+    "date": "2026-03-12"
+  },
+  {
+    "id": "r14",
+    "serviceId": "s6",
+    "userName": "Diana R.",
+    "rating": 5,
+    "comment": "The team at OrangeTwist really knows what they're doing. Professional, clean, and fantastic results.",
+    "date": "2026-03-01"
+  },
+  {
+    "id": "r15",
+    "serviceId": "s6",
+    "userName": "Natalie P.",
+    "rating": 4,
+    "comment": "Loved the treatment but wish the appointment was a bit longer. My skin was glowing for days after.",
+    "date": "2026-02-20"
+  },
+  {
+    "id": "r16",
+    "serviceId": "s7",
+    "userName": "Sarah K.",
+    "rating": 5,
+    "comment": "Incredible results after just one session. The staff walked me through everything and I felt completely at ease.",
+    "date": "2026-03-14"
+  },
+  {
+    "id": "r17",
+    "serviceId": "s7",
+    "userName": "Linda M.",
+    "rating": 4,
+    "comment": "Newport Beach location is gorgeous. The consultation beforehand was thorough and the treatment was painless.",
+    "date": "2026-02-22"
+  },
+  {
+    "id": "r18",
+    "serviceId": "s8",
+    "userName": "Ryan J.",
+    "rating": 5,
+    "comment": "Already seeing fading after two sessions. The PicoWay laser is way less painful than I expected.",
+    "date": "2026-03-09"
+  },
+  {
+    "id": "r19",
+    "serviceId": "s8",
+    "userName": "Alex C.",
+    "rating": 4,
+    "comment": "Cherry Creek location is great. Very professional staff and clear about what to expect with recovery.",
+    "date": "2026-02-25"
+  },
+  {
+    "id": "r20",
+    "serviceId": "s9",
+    "userName": "Sophie K.",
+    "rating": 5,
+    "comment": "This is unlike any facial I've ever had. My jawline felt noticeably more defined after just one session.",
+    "date": "2026-03-11"
+  },
+  {
+    "id": "r21",
+    "serviceId": "s9",
+    "userName": "Tara B.",
+    "rating": 4,
+    "comment": "Really cool concept and great execution. The EMS component is intense but you can feel it working.",
+    "date": "2026-02-25"
+  },
+  {
+    "id": "r22",
+    "serviceId": "s9",
+    "userName": "Emma W.",
+    "rating": 5,
+    "comment": "FaceGym in WeHo is my new obsession. Left looking lifted and my skin was glowing all week.",
+    "date": "2026-02-10"
+  },
+  {
+    "id": "r23",
+    "serviceId": "s10",
+    "userName": "Lauren H.",
+    "rating": 5,
+    "comment": "Van Michael is my go-to for color. The gloss treatment they added at the end was a game-changer.",
+    "date": "2026-03-09"
+  },
+  {
+    "id": "r24",
+    "serviceId": "s10",
+    "userName": "Ashley G.",
+    "rating": 5,
+    "comment": "Perfect color match every time. The salon atmosphere in Buckhead is gorgeous.",
+    "date": "2026-03-02"
+  },
+  {
+    "id": "r25",
+    "serviceId": "s10",
+    "userName": "Megan S.",
+    "rating": 4,
+    "comment": "Pricey but absolutely worth it. My balayage looked natural and the blowout was a nice finishing touch.",
+    "date": "2026-02-14"
+  },
+  {
+    "id": "r26",
+    "serviceId": "s11",
+    "userName": "Courtney J.",
+    "rating": 5,
+    "comment": "Frenchies is the cleanest nail studio I've been to. The pedicure was incredibly relaxing.",
+    "date": "2026-03-13"
+  },
+  {
+    "id": "r27",
+    "serviceId": "s11",
+    "userName": "Megan L.",
+    "rating": 4,
+    "comment": "Great experience and love that they use clean products. The massage portion was the highlight.",
+    "date": "2026-03-03"
+  },
+  {
+    "id": "r28",
+    "serviceId": "s12",
+    "userName": "Brian C.",
+    "rating": 5,
+    "comment": "The full grooming package is an absolute treat. Left feeling like a new man. Highly recommend.",
+    "date": "2026-03-07"
+  },
+  {
+    "id": "r29",
+    "serviceId": "s12",
+    "userName": "Kevin S.",
+    "rating": 4,
+    "comment": "Top-tier experience at the Cherry Creek location. The scalp massage alone was worth the price.",
+    "date": "2026-02-22"
+  },
+  {
+    "id": "r30",
+    "serviceId": "s13",
+    "userName": "James W.",
+    "rating": 5,
+    "comment": "Exactly what I needed after a long week. The therapist was incredibly skilled and attentive.",
+    "date": "2026-03-14"
+  },
+  {
+    "id": "r31",
+    "serviceId": "s13",
+    "userName": "Stephanie H.",
+    "rating": 5,
+    "comment": "Gene Juarez spa services are on another level. The pressure was perfect and the room was so peaceful.",
+    "date": "2026-02-27"
+  },
+  {
+    "id": "r32",
+    "serviceId": "s14",
+    "userName": "Rachel B.",
+    "rating": 5,
+    "comment": "Perfect lunchtime treatment. 30 minutes and my skin looked completely refreshed. The LED therapy was amazing.",
+    "date": "2026-03-10"
+  },
+  {
+    "id": "r33",
+    "serviceId": "s14",
+    "userName": "Olivia D.",
+    "rating": 4,
+    "comment": "Love FaceGym's approach. Quick, effective, and you can actually see the difference right away.",
+    "date": "2026-02-19"
+  },
+  {
+    "id": "r34",
+    "serviceId": "s15",
+    "userName": "Karen L.",
+    "rating": 5,
+    "comment": "The consultation was so thorough. They answered every question and created a custom treatment plan for me.",
+    "date": "2026-03-08"
+  },
+  {
+    "id": "r35",
+    "serviceId": "s15",
+    "userName": "Christina M.",
+    "rating": 4,
+    "comment": "Dallas Uptown OrangeTwist location is beautiful. Felt very comfortable and well-informed after my visit.",
+    "date": "2026-02-16"
+  },
+  {
+    "id": "r36",
+    "serviceId": "s16",
+    "userName": "Danielle V.",
+    "rating": 5,
+    "comment": "My gel mani has lasted over two weeks with zero chips. Frenchies uses great quality products.",
+    "date": "2026-03-11"
+  },
+  {
+    "id": "r37",
+    "serviceId": "s16",
+    "userName": "Amy T.",
+    "rating": 4,
+    "comment": "Clean space, friendly staff, and a great selection of gel colors. Will be coming back regularly.",
+    "date": "2026-02-24"
+  }
+]
