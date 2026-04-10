@@ -11,6 +11,7 @@ interface FilterBarProps {
   onPriceChange: (range: string) => void;
   ratingFilter: string;
   onRatingChange: (rating: string) => void;
+  resultCount: number;
 }
 
 export default function FilterBar({
@@ -18,6 +19,7 @@ export default function FilterBar({
   cities, selectedCity, onCityChange,
   priceRange, onPriceChange,
   ratingFilter, onRatingChange,
+  resultCount,
 }: FilterBarProps) {
   return (
     <div className="space-y-3">
@@ -37,8 +39,8 @@ export default function FilterBar({
           </button>
         ))}
       </div>
-      {/* Dropdowns row */}
-      <div className="flex flex-wrap gap-2">
+      {/* Dropdowns row + result count */}
+      <div className="flex flex-wrap items-center gap-2">
         <select
           value={selectedCity}
           onChange={(e) => onCityChange(e.target.value)}
@@ -69,6 +71,9 @@ export default function FilterBar({
           <option value="4.7">4.7+ Stars</option>
           <option value="4.9">4.9+ Stars</option>
         </select>
+        <span className="ml-auto text-sm text-gray-400">
+          {resultCount} {resultCount === 1 ? "service" : "services"} found
+        </span>
       </div>
     </div>
   );

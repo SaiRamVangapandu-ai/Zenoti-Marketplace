@@ -8,13 +8,22 @@ import TimeSlotSelector from "@/components/TimeSlotSelector";
 import services from "@/data/services.json";
 import businesses from "@/data/businesses.json";
 
-const dates = [
-  { label: "Today", value: "Mar 18" },
-  { label: "Wed", value: "Mar 19" },
-  { label: "Thu", value: "Mar 20" },
-  { label: "Fri", value: "Mar 21" },
-  { label: "Sat", value: "Mar 22" },
-];
+const DAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+function generateDates() {
+  const today = new Date();
+  return Array.from({ length: 5 }, (_, i) => {
+    const d = new Date(today);
+    d.setDate(today.getDate() + i);
+    return {
+      label: i === 0 ? "Today" : DAY_NAMES[d.getDay()],
+      value: `${MONTH_NAMES[d.getMonth()]} ${d.getDate()}`,
+    };
+  });
+}
+
+const dates = generateDates();
 
 function BookingContent() {
   const { id } = useParams<{ id: string }>();

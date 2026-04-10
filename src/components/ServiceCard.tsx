@@ -12,10 +12,11 @@ interface ServiceCardProps {
   image: string;
   category: string;
   location: string;
+  badge?: string;
 }
 
 export default function ServiceCard({
-  id, name, businessName, price, rating, reviews, duration, image, category, location,
+  id, name, businessName, price, rating, reviews, duration, image, category, location, badge,
 }: ServiceCardProps) {
   return (
     <div className="group overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
@@ -30,6 +31,11 @@ export default function ServiceCard({
         <span className="absolute top-3 left-3 rounded-full bg-white/90 px-2.5 py-1 text-xs font-medium text-gray-700 backdrop-blur-sm">
           {category}
         </span>
+        {badge && (
+          <span className="absolute top-3 right-3 rounded-full bg-violet-600 px-2.5 py-1 text-xs font-semibold text-white shadow-sm">
+            {badge}
+          </span>
+        )}
       </Link>
       <div className="p-4">
         <h3 className="font-semibold text-gray-900 group-hover:text-violet-600 transition-colors">

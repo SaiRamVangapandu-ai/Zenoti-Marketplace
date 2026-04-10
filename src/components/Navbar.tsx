@@ -39,11 +39,19 @@ export default function Navbar() {
           </span>
         </Link>
 
-        <div className="flex items-center gap-4">
-          {/* Contextual location indicator */}
+        <div className="flex items-center gap-3">
           <span className={`hidden text-sm transition-colors duration-300 sm:block ${transparent ? "text-white/60" : "text-gray-400"}`}>
-            Showing results near Los Angeles, CA
+            Near Los Angeles, CA
           </span>
+
+          <Link
+            href="/dashboard"
+            className={`hidden rounded-full px-4 py-2 text-sm font-medium transition-colors duration-200 sm:block ${
+              transparent ? "text-white/70 hover:text-white" : "text-gray-500 hover:text-gray-900"
+            }`}
+          >
+            Dashboard
+          </Link>
 
           <Link
             href="/#listings"
